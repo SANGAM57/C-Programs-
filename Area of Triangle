@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    int b,h;
+    float area;
+    printf("Enter b value:");
+    scanf("%d",&b);
+    printf("Enter h value:");
+    scanf("%d",&h);
+    area = (h*b)/2;
+    printf("area of triangle is:%f",area);
+    return 0;
+}
